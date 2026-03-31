@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.clojars.dokosho02</groupId>
+  <artifactId>clj-telegraph-api</artifactId>
+  <version>0.1.6</version>
+  <packaging>jar</packaging>
+
+  <name>clj-telegraph-api</name>
+  <description>Idiomatic Clojure client for the Telegraph API</description>
+  <url>https://github.com/dokosho02/clj-telegraph-api</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>dokosho02</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <url>https://github.com/dokosho02/clj-telegraph-api</url>
+    <connection
+        >scm:git:git://github.com/dokosho02/clj-telegraph-api.git</connection>
+    <developerConnection
+        >scm:git:ssh://git@github.com/dokosho02/clj-telegraph-api.git</developerConnection>
+    <tag>v0.1.6</tag>
+  </scm>
+
+  <dependencies>
+    <dependency>
+      <groupId>hato</groupId>
+      <artifactId>hato</artifactId>
+      <version>0.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>cheshire</groupId>
+      <artifactId>cheshire</artifactId>
+      <version>5.13.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.17.2</version>
+    </dependency>
+  </dependencies>
+</project>
