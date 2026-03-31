@@ -4,7 +4,7 @@ Idiomatic Clojure client for the [Telegraph API](https://telegra.ph/api).
 Publish Instant View pages for Telegram from your Clojure application.
 
 [![Clojure CI](https://img.shields.io/badge/clojure-1.12-blue)](https://clojure.org)
-
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.dokosho02/clj-telegraph-api.svg)](https://clojars.org/org.clojars.dokosho02/clj-telegraph-api)
 ## Installation
 
 ```clojure

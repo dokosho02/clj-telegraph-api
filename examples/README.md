@@ -146,4 +146,4 @@ clojure -M examples/02_node_helpers.clj <access_token>
 ```
 
 > **Note**: telegra.ph URLs open as a normal webpage in a browser.
-> Instant View only appears in the Telegram mobile app (not Telegram Desktop).
+> Instant View only appears in the Telegram app.
